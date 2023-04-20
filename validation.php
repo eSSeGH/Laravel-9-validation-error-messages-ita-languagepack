@@ -17,15 +17,15 @@ return [
     'accepted_if' => ':attribute deve essere accettato quando :other è :value.',
     'active_url' => ':attribute non è un URL valido.',
     'after' => ':attribute deve essere una data seguente a :date.',
-    'after_or_equal' => ':attribute deve essere una data seguente o uguale a :date.',
+    'after_or_equal' => ':attribute deve essere una data seguente o coincidente a :date.',
     'alpha' => ':attribute deve contenere solo lettere.',
     'alpha_dash' => ':attribute deve contenere solo lettere, numeri, trattini e trattini bassi.',
     'alpha_num' => ':attribute deve contenere solo lettere e numeri.',
     'array' => ':attribute deve essere un array.',
     'before' => ':attribute deve essere una data antecedente :date.',
-    'before_or_equal' => ':attribute deve essere una data antecedente o uguale a :date.',
+    'before_or_equal' => ':attribute deve essere una data antecedente o coincidente a :date.',
     'between' => [
-        'array' => ':attribute deve avere un numero di oggetti compreso tra :min e :max items.',
+        'array' => ':attribute deve avere un numero di oggetti compreso tra :min e :max.',
         'file' => ':attribute deve avere un numero di kilobytes compreso tra :min e :max.',
         'numeric' => ':attribute deve essere compreso tra :min e :max.',
         'string' => ':attribute deve avere un numero di caratteri compreso tra :min e :max.',
@@ -34,7 +34,7 @@ return [
     'confirmed' => ':attribute non corrisponde.',
     'current_password' => 'password non è corretta.',
     'date' => ':attribute non è una data valida.',
-    'date_equals' => ':attribute deve essere una data uguale a :date.',
+    'date_equals' => ':attribute deve essere una data coincidente a :date.',
     'date_format' => ':attribute non corrisponde al formato :format.',
     'declined' => ':attribute deve essere rifiutato.',
     'declined_if' => ':attribute deve essere rifiutato quando :other è :value.',
@@ -161,7 +161,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Le seguenti righe sono utilizzate per sostituire i nostri attributi standard
-    | con alcuni che potrebbero risultare più facili da leggere come ad esempio "E-Mail Address"
+    | con alcuni che potrebbero risultare più facili da leggere come ad esempio
     | "E-Mail Address" al posto di "email". Ciò aiuta a rendere i nostri messaggi più espressivi
     |  e/o comprensibili.
     |
